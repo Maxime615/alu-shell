@@ -1,1 +1,1 @@
-Shell basics project
+Repository for ALU shell projects
