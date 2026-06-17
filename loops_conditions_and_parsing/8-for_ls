@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Lists files in the current directory cutting out everything before the first dash
+
+for file in *; do
+    if [ -e "$file" ]; then
+        echo "${file#*-}"
+    fi
+done
