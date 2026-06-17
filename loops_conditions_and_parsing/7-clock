@@ -8,6 +8,6 @@ while [ "$hour" -le 12 ]; do
     while [ "$minute" -le 59 ]; do
         echo "$minute"
         minute=$((minute + 1))
-    fi
+    done
     hour=$((hour + 1))
 done
